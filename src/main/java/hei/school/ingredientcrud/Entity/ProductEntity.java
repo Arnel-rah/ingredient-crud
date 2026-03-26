@@ -3,7 +3,6 @@ package hei.school.ingredientcrud.Entity;
 import java.time.Instant;
 
 
-@Entity
 public class ProductEntity {
     private int id;
     private String name;
