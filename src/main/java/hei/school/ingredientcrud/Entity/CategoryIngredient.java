@@ -1,4 +1,4 @@
-package hei.school.ingredientcrud.Entity;
+package hei.school.ingredientcrud.entity;
 
 public enum CategoryIngredient {
   VEGETABLE, ANIMAL, DAIRY, OTHER

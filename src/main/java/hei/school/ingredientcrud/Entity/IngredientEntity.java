@@ -1,4 +1,4 @@
-package hei.school.ingredientcrud.Entity;
+package hei.school.ingredientcrud.entity;
 
 public class IngredientEntity {
   private int id;

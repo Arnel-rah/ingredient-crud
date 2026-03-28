@@ -1,4 +1,4 @@
-package hei.school.ingredientcrud.DataSource;
+package hei.school.ingredientcrud.repository;
 
 
 import org.springframework.beans.factory.annotation.Value;
@@ -9,7 +9,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 @Component
-public class DbConnection {
+public class DataSource {
     @Value("${db.url}")
     private String url;
     @Value("${db.name}")
